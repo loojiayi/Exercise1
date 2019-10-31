@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
                 editTextCarPrice.setError("Please enter your name")
                 return@setOnClickListener
             }
+
             val down_payment = editTextDownPayment.text.toString().toInt()
             val loan_period = editTextLoanPeriod.text.toString().toInt()
             val interest_rate = editTextInterestRate.text.toString().toFloat()
